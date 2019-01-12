@@ -1,6 +1,6 @@
-class HomepageController < Applicationcontroller
+class HomepageController < ApplicationController
 
   def index
   end
-  
+
 end
