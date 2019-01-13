@@ -38,7 +38,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem 'owlcarousel-rails', '~> 1.1', '>= 1.1.3.3'
+
+gem 'animate-rails', '~> 1.0', '>= 1.0.10'
+gem 'flexslider', '~> 2.2'
+gem 'icomoon-rails', '~> 0.1.0'
+gem 'owlcarousel-rails', '~> 2.2', '>= 2.2.3.5'
 
 
 group :development, :test do

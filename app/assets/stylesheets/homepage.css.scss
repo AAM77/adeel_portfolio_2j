@@ -1,15 +1,189 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "scss/_variables.scss";
-@import "scss/_predefine.scss";
-@import "scss/_header.scss";
-@import "scss/breadcrumb.scss";
-@import "scss/_blog.scss";
-@import "scss/_contact.scss";
-@import "scss/_elements.scss";
-@import "scss/_button.scss";
-@import "scss/_team.scss";
-@import "scss/_feature.scss";
-@import "scss/_projects.scss";
-@import "scss/_testimonials.scss";
-@import "scss/_footer.scss"
+/*
+ * imports from "sass/bootstrap.scss"
+ */
+@import "sass/bootstrap/_variables.scss";
+@import "sass/bootstrap/_mixins.scss";
+@import "sass/bootstrap/_normalize.scss";
+@import "sass/bootstrap/_print.scss";
+@import "sass/bootstrap/_glyphicons.scss";
+@import "sass/bootstrap/_scaffolding.scss";
+@import "sass/bootstrap/_type.scss";
+@import "sass/bootstrap/_code.scss";
+@import "sass/bootstrap/_grid.scss";
+@import "sass/bootstrap/_tables.scss";
+@import "sass/bootstrap/_forms.scss";
+@import "sass/bootstrap/_buttons.scss";
+@import "sass/bootstrap/_component-animations.scss";
+@import "sass/bootstrap/_dropdowns.scss";
+@import "sass/bootstrap/_button-groups.scss";
+@import "sass/bootstrap/_input-groups.scss";
+@import "sass/bootstrap/_navs.scss";
+@import "sass/bootstrap/_navbar.scss";
+@import "sass/bootstrap/_breadcrumbs.scss";
+@import "sass/bootstrap/_pagination.scss";
+@import "sass/bootstrap/_pager.scss";
+@import "sass/bootstrap/_labels.scss";
+@import "sass/bootstrap/_badges.scss";
+@import "sass/bootstrap/_jumbotron.scss";
+@import "sass/bootstrap/_thumbnails.scss";
+@import "sass/bootstrap/_alerts.scss";
+@import "sass/bootstrap/_progress-bars.scss";
+@import "sass/bootstrap/_media.scss";
+@import "sass/bootstrap/_list-group.scss";
+@import "sass/bootstrap/_panels.scss";
+@import "sass/bootstrap/_responsive-embed.scss";
+@import "sass/bootstrap/_wells.scss";
+@import "sass/bootstrap/_close.scss";
+@import "sass/bootstrap/_modals.scss";
+@import "sass/bootstrap/_tooltip.scss";
+@import "sass/bootstrap/_popovers.scss";
+@import "sass/bootstrap/_carousel.scss";
+@import "sass/bootstrap/_utilities.scss";
+@import "sass/bootstrap/_responsive-utilities.scss";
+@import "sass/bootstrap/mixins/_hide-text.scss";
+@import "sass/bootstrap/mixins/_opacity.scss";
+@import "sass/bootstrap/mixins/_image.scss";
+@import "sass/bootstrap/mixins/_labels.scss";
+@import "sass/bootstrap/mixins/_reset-filter.scss";
+@import "sass/bootstrap/mixins/_resize.scss";
+@import "sass/bootstrap/mixins/_responsive-visibility.scss";
+@import "sass/bootstrap/mixins/_size.scss";
+@import "sass/bootstrap/mixins/_tab-focus.scss";
+@import "sass/bootstrap/mixins/_reset-text.scss";
+@import "sass/bootstrap/mixins/_text-emphasis.scss";
+@import "sass/bootstrap/mixins/_text-overflow.scss";
+@import "sass/bootstrap/mixins/_vendor-prefixes.scss";
+@import "sass/bootstrap/mixins/_alerts.scss";
+@import "sass/bootstrap/mixins/_buttons.scss";
+@import "sass/bootstrap/mixins/_panels.scss";
+@import "sass/bootstrap/mixins/_pagination.scss";
+@import "sass/bootstrap/mixins/_list-group.scss";
+@import "sass/bootstrap/mixins/_nav-divider.scss";
+@import "sass/bootstrap/mixins/_forms.scss";
+@import "sass/bootstrap/mixins/_progress-bar.scss";
+@import "sass/bootstrap/mixins/_table-row.scss";
+@import "sass/bootstrap/mixins/_background-variant.scss";
+@import "sass/bootstrap/mixins/_border-radius.scss";
+@import "sass/bootstrap/mixins/_gradients.scss";
+@import "sass/bootstrap/mixins/_clearfix.scss";
+@import "sass/bootstrap/mixins/_center-block.scss";
+@import "sass/bootstrap/mixins/_nav-vertical-align.scss";
+@import "sass/bootstrap/mixins/_grid-framework.scss";
+@import "sass/bootstrap/mixins/_grid.scss";
+
+
+
+/*
+ * imports fromt "sass/style.scss"
+ */
+
+@import "sass/bootstrap/_mixins.scss";
+@import "sass/bootstrap/_variables.scss";
+@import "sass/bootstrap/mixins/_hide-text.scss";
+@import "sass/bootstrap/mixins/_opacity.scss";
+@import "sass/bootstrap/mixins/_image.scss";
+@import "sass/bootstrap/mixins/_labels.scss";
+@import "sass/bootstrap/mixins/_reset-filter.scss";
+@import "sass/bootstrap/mixins/_resize.scss";
+@import "sass/bootstrap/mixins/_responsive-visibility.scss";
+@import "sass/bootstrap/mixins/_size.scss";
+@import "sass/bootstrap/mixins/_tab-focus.scss";
+@import "sass/bootstrap/mixins/_reset-text.scss";
+@import "sass/bootstrap/mixins/_text-emphasis.scss";
+@import "sass/bootstrap/mixins/_text-overflow.scss";
+@import "sass/bootstrap/mixins/_vendor-prefixes.scss";
+@import "sass/bootstrap/mixins/_alerts.scss";
+@import "sass/bootstrap/mixins/_buttons.scss";
+@import "sass/bootstrap/mixins/_panels.scss";
+@import "sass/bootstrap/mixins/_pagination.scss";
+@import "sass/bootstrap/mixins/_list-group.scss";
+@import "sass/bootstrap/mixins/_nav-divider.scss";
+@import "sass/bootstrap/mixins/_forms.scss";
+@import "sass/bootstrap/mixins/_progress-bar.scss";
+@import "sass/bootstrap/mixins/_table-row.scss";
+@import "sass/bootstrap/mixins/_background-variant.scss";
+@import "sass/bootstrap/mixins/_border-radius.scss";
+@import "sass/bootstrap/mixins/_gradients.scss";
+@import "sass/bootstrap/mixins/_clearfix.scss";
+@import "sass/bootstrap/mixins/_center-block.scss";
+@import "sass/bootstrap/mixins/_nav-vertical-align.scss";
+@import "sass/bootstrap/mixins/_grid-framework.scss";
+@import "sass/bootstrap/mixins/_grid.scss";
+
+
+
+/*
+ * imports from "sass/bootstrap/_mixins.scss"
+ */
+
+
+@import "sass/bootstrap/mixins/_hide-text.scss";
+@import "sass/bootstrap/mixins/_opacity.scss";
+@import "sass/bootstrap/mixins/_image.scss";
+@import "sass/bootstrap/mixins/_labels.scss";
+@import "sass/bootstrap/mixins/_reset-filter.scss";
+@import "sass/bootstrap/mixins/_resize.scss";
+@import "sass/bootstrap/mixins/_responsive-visibility.scss";
+@import "sass/bootstrap/mixins/_size.scss";
+@import "sass/bootstrap/mixins/_tab-focus.scss";
+@import "sass/bootstrap/mixins/_reset-text.scss";
+@import "sass/bootstrap/mixins/_text-emphasis.scss";
+@import "sass/bootstrap/mixins/_text-overflow.scss";
+@import "sass/bootstrap/mixins/_vendor-prefixes.scss";
+@import "sass/bootstrap/mixins/_alerts.scss";
+@import "sass/bootstrap/mixins/_buttons.scss";
+@import "sass/bootstrap/mixins/_panels.scss";
+@import "sass/bootstrap/mixins/_pagination.scss";
+@import "sass/bootstrap/mixins/_list-group.scss";
+@import "sass/bootstrap/mixins/_nav-divider.scss";
+@import "sass/bootstrap/mixins/_forms.scss";
+@import "sass/bootstrap/mixins/_progress-bar.scss";
+@import "sass/bootstrap/mixins/_table-row.scss";
+@import "sass/bootstrap/mixins/_background-variant.scss";
+@import "sass/bootstrap/mixins/_border-radius.scss";
+@import "sass/bootstrap/mixins/_gradients.scss";
+@import "sass/bootstrap/mixins/_clearfix.scss";
+@import "sass/bootstrap/mixins/_center-block.scss";
+@import "sass/bootstrap/mixins/_nav-vertical-align.scss";
+@import "sass/bootstrap/mixins/_grid-framework.scss";
+@import "sass/bootstrap/mixins/_grid.scss";
+
+
+
+/*
+ *"sass/bootstrap/_theme.scss"
+ */
+
+
+@import "sass/bootstrap/_variables.scss";
+@import "sass/bootstrap/_mixins.scss";
+@import "sass/bootstrap/mixins/_hide-text.scss";
+@import "sass/bootstrap/mixins/_opacity.scss";
+@import "sass/bootstrap/mixins/_image.scss";
+@import "sass/bootstrap/mixins/_labels.scss";
+@import "sass/bootstrap/mixins/_reset-filter.scss";
+@import "sass/bootstrap/mixins/_resize.scss";
+@import "sass/bootstrap/mixins/_responsive-visibility.scss";
+@import "sass/bootstrap/mixins/_size.scss";
+@import "sass/bootstrap/mixins/_tab-focus.scss";
+@import "sass/bootstrap/mixins/_reset-text.scss";
+@import "sass/bootstrap/mixins/_text-emphasis.scss";
+@import "sass/bootstrap/mixins/_text-overflow.scss";
+@import "sass/bootstrap/mixins/_vendor-prefixes.scss";
+@import "sass/bootstrap/mixins/_alerts.scss";
+@import "sass/bootstrap/mixins/_buttons.scss";
+@import "sass/bootstrap/mixins/_panels.scss";
+@import "sass/bootstrap/mixins/_pagination.scss";
+@import "sass/bootstrap/mixins/_list-group.scss";
+@import "sass/bootstrap/mixins/_nav-divider.scss";
+@import "sass/bootstrap/mixins/_forms.scss";
+@import "sass/bootstrap/mixins/_progress-bar.scss";
+@import "sass/bootstrap/mixins/_table-row.scss";
+@import "sass/bootstrap/mixins/_background-variant.scss";
+@import "sass/bootstrap/mixins/_border-radius.scss";
+@import "sass/bootstrap/mixins/_gradients.scss";
+@import "sass/bootstrap/mixins/_clearfix.scss";
+@import "sass/bootstrap/mixins/_center-block.scss";
+@import "sass/bootstrap/mixins/_nav-vertical-align.scss";
+@import "sass/bootstrap/mixins/_grid-framework.scss";
+@import "sass/bootstrap/mixins/_grid.scss";
