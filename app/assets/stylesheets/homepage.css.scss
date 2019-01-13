@@ -187,3 +187,26 @@
 @import "sass/bootstrap/mixins/_nav-vertical-align.scss";
 @import "sass/bootstrap/mixins/_grid-framework.scss";
 @import "sass/bootstrap/mixins/_grid.scss";
+
+
+/*
+ * import from vendor/stylesheets/css
+ */
+
+@import "css/animate.css";
+@import "css/bootstrap.css";
+@import "css/flexslider.css";
+@import "css/icomoon.css";
+@import "css/owl.carousel.min.css";
+@import "css/owl.theme.default.min.css";
+@import "css/style.css";
+
+/*
+ * import from vendor/stylesheets/scss
+ * MIGHT BE UNNECESSARY!
+ */
+
+@import "sass/_bootstrap-compass.scss";
+@import "sass/_bootstrap-mincer.scss";
+@import "sass/_bootstrap-sprockets.scss";
+@import "sass/style.scss";
