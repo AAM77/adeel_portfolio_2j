@@ -49,16 +49,16 @@
 
 	</head>
 	<body>
-  	<div id="colorlib-page">
+  	<div id="page-page">
   		<div class="container-wrap">
-    		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-    		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+    		<a href="#" class="js-page-nav-toggle page-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+    		<aside id="page-aside" role="complementary" class="border js-fullheight">
     			<div class="text-center">
     				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-    				<h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
+    				<h1 id="page-logo"><a href="index.html">Jackson Ford</a></h1>
     				<span class="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
     			</div>
-    			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+    			<nav id="page-main-menu" role="navigation" class="navbar">
     				<div id="navbar" class="collapse">
     					<ul>
     						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
@@ -74,7 +74,7 @@
     				</div>
     			</nav>
 
-    			<div class="colorlib-footer">
+    			<div class="page-footer">
     				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
@@ -91,7 +91,18 @@
         <%= yield %>
 
   	  </div><!-- end:container-wrap -->
-  	</div><!-- end:colorlib-page -->
+  	</div><!-- end:page-page -->
+
+
+
+		<!-- Owl carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Counters -->
+		<script src="js/jquery.countTo.js"></script>
+
+
+		<!-- MAIN JS -->
+		<script src="js/main.js"></script>
 
 	</body>
 </html>
