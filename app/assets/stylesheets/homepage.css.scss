@@ -1,2 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "scss/_variables.scss";
+@import "scss/_predefine.scss";
+@import "scss/_header.scss";
+@import "scss/breadcrumb.scss";
+@import "scss/_blog.scss";
+@import "scss/_contact.scss";
+@import "scss/_elements.scss";
+@import "scss/_button.scss";
+@import "scss/_team.scss";
+@import "scss/_feature.scss";
+@import "scss/_projects.scss";
+@import "scss/_testimonials.scss";
+@import "scss/_footer.scss"
